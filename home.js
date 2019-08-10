@@ -10,6 +10,5 @@ function hideOrShowDetails(id) {
         console.log(element.style.visibility)
         element.style.visibility="visible";
     }
-    
 }
 

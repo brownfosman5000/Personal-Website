@@ -1,12 +1,27 @@
 body{
     overflow: hidden;
 }
+
+#background-image{
+    background-image: url("./assets/linkedin.jpg");
+    position: absolute;
+    background-size: cover;
+    opacity: 0.7;
+    
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+
 #picture-container{
     /* margin: -8px;
     padding: -8px; */
     height: 100%;
     width: 100%;
 }
+
 
 img {
     margin: 0px;
@@ -24,11 +39,7 @@ img {
     border-color:brown;
     padding: 20px;
 }
-#about-me{
-    position: absolute;
-    top: 3%;
-    left: 3%;
-}
+
 
 #projects{
     position: absolute;
@@ -49,3 +60,8 @@ img {
     right: 20%;
 }
 
+.top-left-pos {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
