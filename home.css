@@ -1,0 +1,35 @@
+#personal-pic {
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    height: 75%;
+    width: 100%;
+    opacity: .4;
+}
+
+#about-me{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+#projects{
+    position: absolute;
+    bottom: 8px;
+    right: 50px;
+}
+
+#interests{
+    position: absolute;
+    bottom: 50px;
+    right: 16px;
+}
+
+#networks{
+    position: absolute;
+    bottom: 30px;
+    right: 200px;
+}
+
