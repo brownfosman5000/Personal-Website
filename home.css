@@ -1,4 +1,7 @@
-#container-picture {
+body{
+    overflow: hidden;
+}
+#picture-container{
     /* margin: -8px;
     padding: -8px; */
     height: 100%;
@@ -24,6 +27,7 @@ img {
     top: 45%;
     left: 6%;
 }
+
 
 #interests{
     position: absolute;
