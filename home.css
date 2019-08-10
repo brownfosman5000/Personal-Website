@@ -40,28 +40,26 @@ img {
     padding: 20px;
 }
 
+.top-left-pos {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
 
-#projects{
+.mid-left-pos {
     position: absolute;
     top: 45%;
     left: 6%;
 }
 
-
-#interests{
+.mid-right-pos {
     position: absolute;
     bottom: 68%;
     right: 3%;
 }
 
-#networks{
+.bottom-right-pos {
     position: absolute;
     bottom: 19%;
     right: 20%;
-}
-
-.top-left-pos {
-    position: absolute;
-    top: 3%;
-    left: 3%;
 }
