@@ -1,35 +1,39 @@
-#personal-pic {
+#container-picture {
+    /* margin: -8px;
+    padding: -8px; */
     height: 100%;
     width: 100%;
 }
 
 img {
-    height: 75%;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
     width: 100%;
     opacity: .4;
 }
 
 #about-me{
     position: absolute;
-    top: 8px;
-    left: 16px;
+    top: 3%;
+    left: 3%;
 }
 
 #projects{
     position: absolute;
-    bottom: 8px;
-    right: 50px;
+    top: 45%;
+    left: 6%;
 }
 
 #interests{
     position: absolute;
-    bottom: 50px;
-    right: 16px;
+    bottom: 68%;
+    right: 3%;
 }
 
 #networks{
     position: absolute;
-    bottom: 30px;
-    right: 200px;
+    bottom: 19%;
+    right: 20%;
 }
 
