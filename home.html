@@ -20,77 +20,80 @@
 		
 		<div id="about-me" class="info-container top-left-pos">
 			<div class=titles>
-					<button onclick="hideOrShowDetails('about-me-details')" class="btn btn-primary">About Me</button>
+				<button class="btn btn-primary" data-toggle="collapse" data-target="#about-me-details-collapse">About Me</button>
 			</div>
-
-			<div id=about-me-details style="visibility:hidden" >
-				<p>
-					What's going on guys? Welcome to my website.<br>
-					I attend CUNY Brooklyn College and study Computer Science.<br>
-					My dream and goal is to be a software developer. <br>
-				</p>	
+			
+			<div class="collapse" id="about-me-details-collapse">
+				<div id=about-me-details class="card card-body" >
+					<p>
+						What's going on guys? Welcome to my website.<br>
+						I attend CUNY Brooklyn College and study Computer Science.<br>
+						My dream and goal is to be a software developer. <br>
+					</p>	
+				</div>
 			</div>
 		</div>
 
 		<div id="projects" class="info-container mid-left-pos">
 			<div class=titles>
-					<button onclick="hideOrShowDetails('project-details')" class="btn btn-primary">Projects</button>
+					<button class="btn btn-primary" data-toggle="collapse" data-target="#project-details-collapse">Projects</button>
 			</div>
+			
+			<div class="collapse" id="project-details-collapse">
+				<div id="project-details" class="card card-body">
+					<ul>
+						<li>New York Times Best Seller App (Android)</li>
+							<p>
+								Do you want to see what books are selling for this month?</br>
+								Are you tired of having ot log on to your laptop or desktop to see that?</br>
+								Download our app that will bring ease into your life with descriptions, links to buy and...<br>
+								All for free
+							</p>
 
-			<div id="project-details" style="visibility:hidden">
-				
-				
-				<ul>
-					<li>New York Times Best Seller App (Android)</li>
-						<p>
-							Do you want to see what books are selling for this month?</br>
-							Are you tired of having ot log on to your laptop or desktop to see that?</br>
-							Download our app that will bring ease into your life with descriptions, links to buy and...<br>
-							All for free
-						</p>
+						<li>Smart Alarm (IOS) </li>
+							<p>
+								Sometimes a regular alarm clock doesn't do</br>
+								I created a smart alarm clock that asks you math questions and doesn't stop ringing until they are answered correctly</br>
+							</p>
 
-					<li>Smart Alarm (IOS) </li>
-						<p>
-							Sometimes a regular alarm clock doesn't do</br>
-							I created a smart alarm clock that asks you math questions and doesn't stop ringing until they are answered correctly</br>
-						</p>
-
-					<li>Asteroids (Java)</li>
-						<p> A recreation of the game asteroids from the 1980s.<p>
-					<li>Dat Face(IOS)</li>
-						<p> Augemented Reality Dating app that recognizes users of this app using the Algorithmia API and encourages you to make that first move.
-						</p>
-				</ul>
+						<li>Asteroids (Java)</li>
+							<p> A recreation of the game asteroids from the 1980s.<p>
+						<li>Dat Face(IOS)</li>
+							<p> Augemented Reality Dating app that recognizes users of this app using the Algorithmia API and encourages you to make that first move.
+							</p>
+					</ul>
+				</div>
 			</div>
 		</div>
 
 		<div id=interests class="info-container mid-right-pos">
 			<div class=titles>
-					<button onclick="hideOrShowDetails('interests-details')" class="btn btn-primary">Interests</button>
+					<button class="btn btn-primary" data-toggle="collapse" data-target="#interests-details-collapse">Interests</button>
 			</div>
-
-			<div id=interests-details style="visibility:hidden">
-				<ul>
-					<li>Martial Arts</li>
-					<li>Music(Production, Performing and Listening)</li>
-					<li>Any type of outdoor activity (Biking, Running, Swimming, Kayaking)</li>
-				</ul>
+			<div class="collapse" id="interests-details-collapse">
+				<div id="interests-details" class="card card-body">
+					<ul>
+						<li>Martial Arts</li>
+						<li>Music(Production, Performing and Listening)</li>
+						<li>Any type of outdoor activity (Biking, Running, Swimming, Kayaking)</li>
+					</ul>
+				</div>
 			</div>
-
 		</div>
 
 		<div id="networks" class="info-container bottom-right-pos" >
 			<div class=titles>
-					<button onclick="hideOrShowDetails('networks-details')" class="btn btn-primary">Networks</button>
+					<button data-toggle="collapse" data-target="#networks-details-collapse" class="btn btn-primary">Networks</button>
 			</div>
 
-
-			<div id="networks-details" style="visibility:hidden">
-				<ul>
-					<li>
-						<a href="https://www.linkedin.com/in/foster-brown-jr/">LinkedIn</a>
-					</li>
-				</ul>
+			<div class="collapse" id="networks-details-collapse">
+				<div id="networks-details" class="card card-body">
+					<ul>
+						<li>
+							<a href="https://www.linkedin.com/in/foster-brown-jr/">LinkedIn</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
